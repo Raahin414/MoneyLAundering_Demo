@@ -1,6 +1,5 @@
-
 body {
-    background-image: url("https://www.piranirisk.com/hs-fs/hubfs/h_good_practices_prevent_money_laundering.jpg?width=1188&name=h_good_practices_prevent_money_laundering.jpg");
+    background-image: url("background.jpg"); /* Local image */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -55,13 +54,13 @@ li {
     position: relative;
 }
 
-    li:before {
-        content: "•";
-        color: #3498db;
-        font-weight: bold;
-        position: absolute;
-        left: 0;
-    }
+li:before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
 
 .review-section select {
     width: 100%;
@@ -72,3 +71,4 @@ li {
     font-size: 16px;
     background-color: white;
 }
+
